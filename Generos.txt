@@ -1,0 +1,20 @@
+shooter
+platform
+sports
+puzzle-platform
+real-time strategy
+Arcade
+Grafic Adventure
+Interactive drama
+Action
+Visual Novel
+Horror
+Point-and-click adventure
+Abstraction Games
+Survival
+role-playing
+dungeon crawl
+Racing
+art
+Simulator
+tactical
