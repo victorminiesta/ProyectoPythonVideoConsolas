@@ -44,7 +44,10 @@ print("Visual Novel, Horror, Point-and-click adventure, Abstraction Games")
 print("Survival, Tactical, Role-playing, Dungeon crawl, Racing, Art, Simulator")
 print("-------------------------------------------------------------------------")
 
-generoDeseado = input("")
+# Uso del title para poner la primera letra en mayúsculas ya que en el json los géneros estas escritos
+# con la primera letra en mayúsculas
+
+generoDeseado = input("").title()
 
 # Guardo el genero que quiera en la variable "generoDeseado" y luego usando un if dentro del for que compruebe cada uno de los generos con el generoDeseado
 # y que imprima los que coincidan
@@ -52,9 +55,9 @@ generoDeseado = input("")
 if respuesta.status_code == 200:
     datos = respuesta.json() 
     for juegos in datos:
-        nombre = juegos.get('Game')
-        anioSalida = juegos.get('Year')
-        genero = juegos.get('Genre')
+        nombre = juegos.get("Game")
+        anioSalida = juegos.get("Year")
+        genero = juegos.get("Genre")
         if genero == generoDeseado:
             print(f"Nombre: {nombre}, Año de salida: {anioSalida}, Género: {genero}")
             print("-----------------------------------------------------------------")
