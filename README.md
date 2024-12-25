@@ -1,5 +1,7 @@
 # ProyectoPythonVideoConsolas
 
+Esto es un pequeño proyecto que hice durante mis estudios de Grado Superior en el que tu eliges entre 3 videoconsolas y después entre los diferentes géneros de videojuegos, en la que se practica la lectura y muestra de datos de json en python.
+
 Prerequisitos:
 -Tener instalado Python 3.11.6
 
